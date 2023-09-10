@@ -16355,7 +16355,7 @@ CREATE TABLE IF NOT EXISTS `cargos` (
   `cargo` varchar(50) NOT NULL,
   `from_date` date NOT NULL,
   `to_date` date DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -17679,7 +17679,7 @@ CREATE TABLE IF NOT EXISTS `departamentofuncionario` (
   `deptID` char(4) NOT NULL,
   `from_date` date NOT NULL,
   `to_date` date NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -17691,7 +17691,7 @@ DROP TABLE IF EXISTS `departamentos`;
 CREATE TABLE IF NOT EXISTS `departamentos` (
   `deptID` char(4) NOT NULL,
   `dept_name` varchar(40) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -25994,7 +25994,7 @@ CREATE TABLE IF NOT EXISTS `gerentedepartamento` (
   `funcionarioID` int NOT NULL,
   `from_date` date NOT NULL,
   `to_date` date NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -46941,7 +46941,7 @@ CREATE TABLE IF NOT EXISTS `salarios` (
   `salary` int NOT NULL,
   `from_date` date NOT NULL,
   `to_date` date NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 --
 -- Índices para tabelas despejadas
